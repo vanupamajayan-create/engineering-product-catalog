@@ -1,0 +1,22 @@
+================================================================================
+NEXUS STRUCTURAL SYSTEMS | SEISMIC ANCHOR DESIGN MANUAL
+Document Ref: SDM-2026-V1.4 | Compliance: EAD 330087-01-0601
+================================================================================
+
+1.1 INFLUENCE OF REINFORCEMENT ON SEISMIC PERFORMANCE
+When anchoring under seismic categories C1 and C2, the presence of closely spaced 
+reinforcement bars can restrict the formation of a full concrete breakout cone. 
+If structural anchoring is executed in a region with high-density rebar mesh, 
+the characteristic bond resistance must be adjusted.
+
+1.2 MINIMUM SPACING AND EDGE DISTANCE CALCULATION VALUES
+For the HST4 M12 mechanical anchor, the baseline layout values are fixed to prevent 
+premature splitting failure during torque execution:
+* Minimum allowable anchor-to-anchor spacing (s_min) is exactly 60 mm.
+* Minimum allowable concrete edge distance (c_min) is exactly 50 mm.
+* Standard effective embedment depth (h_ef) is exactly 70 mm.
+
+If the actual edge distance is compressed below the critical edge distance threshold, 
+the geometric reduction factor (f_A) must be calculated linearly. Failing to apply 
+the f_A modification factor will result in an over-estimation of the structural 
+concrete cone breakout capacity.
